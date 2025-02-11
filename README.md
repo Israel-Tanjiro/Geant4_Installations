@@ -8,7 +8,7 @@ openssl ca-certificates qtbase5-dev libqt5opengl5-dev libx11-dev libxmu-dev libg
 ```
 ```bash
 sudo apt-get install build-essential libssl-dev
-sudo apt-get cmake-curse-gui
+sudo apt install cmake-curses-gui
 ```
 Now, donwload the geant4 source [version](https://geant4.web.cern.ch/download/10.7.4.html) 
 untar using
