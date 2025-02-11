@@ -24,13 +24,56 @@ ccmake ..
 ```
 you will see an figure like this.
 
-press c to generate, If everthing is ok. Turn on the following options:
+
+
+press c to generate, If everthing is ok. \\
+Turn on the following options:\\
 Select the directory where you want to install geant4, remember this path, you will need to install G4CMP
 presee g, this is to configure, if you do not have errors.
 
 ```bash
 make -j4
 ```
+After some minutes typw
+```bash
+make install
+```
+Now checking that Geant4 was installed correctly
+go to the path where you installed Geant4. Source the geant4 variables, this usually is in the following paht
+```bash
+source geant_env.sh
+```
+Go to the example folder, later to the directory of basis and B1 example.
+Create the build directory
+```bash
+mkdir build
+```
+go to the build directory 
+```bash
+cd build
+```
+type 
+```bash
+cmake ..
+```
+later 
+```bash
+make
+```
+if you do not have error run the program 
+```bash
+./exampleB1
+```
+You will see something like this 
+
+
+
+
+
+
+
+
+
 
 
 
