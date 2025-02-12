@@ -23,7 +23,7 @@ cd build
 ccmake ..
 ```
 you will see an figure like this.
-
+![Workflow Diagram](Gean4_installation.png)
 
 
 press c to generate, If everthing is ok. \\
