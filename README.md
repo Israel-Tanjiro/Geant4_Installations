@@ -27,8 +27,18 @@ you will see an figure like this.
 ![Workflow Diagram](Gean4_installation.png)
 
 
-press c to generate, If everthing is ok. \\
-Turn on the following options:\\
+press c to generate, If everthing is ok.
+Turn on the following options:
+```
+GEANT4_BUILD_MULTITHREAD  ON
+GEANT4_INSTALL_DATA       ON
+GEANT4_USE_OPENGL_X11     ON
+GEANT4_USE_QT             ON
+GEANT4_USE_RAYTRACER_X11  ON
+GEANT4_USE_SYSTEM_EXPAT   ON
+```
+
+
 Select the directory where you want to install geant4, remember this path, you will need to install G4CMP
 presee g, this is to configure, if you do not have any errors.
 
