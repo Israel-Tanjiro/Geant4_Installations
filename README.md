@@ -10,15 +10,20 @@ openssl ca-certificates qtbase5-dev libqt5opengl5-dev libx11-dev libxmu-dev libg
 sudo apt-get install build-essential libssl-dev
 sudo apt install cmake-curses-gui
 ```
-Now, donwload the geant4 source [version](https://geant4.web.cern.ch/download/10.7.4.html) 
-untar using
+Now, donwload the geant4 source [version](https://geant4.web.cern.ch/download/10.7.4.html) . Using, after downloading the package
 tar xzvf geant4.10.7.4.tar.gz
 go to the directory where geant4 is unpacked
-cd geant4.10.7.4 
+```
+cd geant4.10.7.4
+```
 create the build directory 
+```
 mkdir build
+```
 go to the build directory
+```
 cd build
+```
 ```bash
 ccmake ..
 ```
