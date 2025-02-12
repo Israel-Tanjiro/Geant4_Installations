@@ -39,11 +39,11 @@ After some minutes typw
 make install
 ```
 Now checking that Geant4 was installed correctly
-go to the path where you installed Geant4. Source the geant4 variables, this usually is in the following paht
+go to the path where you installed Geant4. Source the geant4 variables, this usually is in the following path /your_path/share/Gean4-10.7.4/geant4make/
 ```bash
 source geant_env.sh
 ```
-Go to the example folder, later to the directory of basis and B1 example.
+Go to the examples folder, later to the directory  basic and B1 example.
 Create the build directory
 ```bash
 mkdir build
